@@ -1,12 +1,11 @@
 #include <stdio.h>
-/**
- * main: uses puts to print output
+/*
+ * main -uses puts to print output
  *
- * return: 0 Everytime
- *
+ * Return: (0) Everytime
  */
-int main(void) 
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
-	return 0;
+	return (0);
 }
