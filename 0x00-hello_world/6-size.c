@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - Prints various types of computer variables
- * Return 0 Always
+ * main - A program that prints various types of computer variables
+ *
+ * Return: (0) success
  */
 
 int main(void)
