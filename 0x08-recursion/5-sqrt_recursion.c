@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
- * _sqrt_recursion -  a function that returns the
+ * sqrt_a -  a function that returns the
  * natural square root of a number.
  *
- * @n: number to calculate the natural square root
+ * @a: input number
+ * @b: iterator
  *
- * Return: the natural number
+ * Return: square root or -1
  */
 int sqrt_a(int a, int b)
 {
@@ -22,11 +23,11 @@ int sqrt_a(int a, int b)
 	return (sqrt_a(a, b + 1));
 }
 /**
- * _sqrt - calculate natural square root
- * @n: number to calculate the square root
- * @i: iterative number
+ * _sqrt_recursion - returns the natural square root of
+ * a number
+ * @n: the input
  *
- * Return: the natural square root 
+ * Return: the natural square root
  */
 int _sqrt_recursion(int n)
 {
